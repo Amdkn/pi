@@ -1,0 +1,23 @@
+{
+  "$schema": "https://aspaceos.tech/schemas/cordis-fiber-v5.json",
+  "name": "@aspace-v5/pi",
+  "submodule_path": "01_Forkable/FKB00_Runtime/00_A0_Core/pi",
+  "sovereign_fork_url": "https://github.com/Amdkn/pi.git",
+  "branch": "aspace-v5-native",
+  "family": "CORE_A0_KERNEL",
+  "fractal_layer": "2L",
+  "holon_owner": "A0-AMADEUS / S1-RICK",
+  "capabilities": [
+    "egm_bridge_31415",
+    "holon_578_dispatch",
+    "cordis_fiber_host"
+  ],
+  "a0_integration_target": "01_Forkable/FKB00_Runtime/00_A0_Core/a0_egm_bridge.py",
+  "egm_gateway_endpoint": "http://127.0.0.1:31415/v1/chat/completions",
+  "shared_brain_path": "00_Memoire/shared_brain/memory.jsonl",
+  "cordis_contract": {
+    "everything_is_a_plugin": true,
+    "revertible_effects": true,
+    "reactive_coeffects": true
+  }
+}
